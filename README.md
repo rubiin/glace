@@ -19,7 +19,15 @@ wayland-client
 Additionally, you will need a Wayland compositor that supports the `zwlr-foreign-toplevel-management` protocol. Compositors based on wlroots already support this protocol.
 
 ---
-## Build and Install
+### Arch Linux 
+
+From the AUR using your favorite AUR helper
+
+```
+yay -S glace-git
+```
+
+Or alternatively you can manually build Gray and install it
 
 To build and install Glace, run the following command after cloning the repository:
 
